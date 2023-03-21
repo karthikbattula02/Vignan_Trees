@@ -1,0 +1,25 @@
+{
+  "name": "vignantrees",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/App.js",
+  "scripts": {
+    "start": "parcel main.html",
+    "build": "parcel build main.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnab Raja Abhiram",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
