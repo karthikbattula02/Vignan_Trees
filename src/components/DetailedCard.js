@@ -10,14 +10,14 @@ const DetailedCard = ({ sheetData }) => {
              <input type="radio" name="select" id="tap-2" checked />
              <input type="checkbox" id="imgTap" />
              <div class="inner-part">
-                 <table>
-                      <tr>
-                         <td>
+
+                         
                             <label for="imgTap" class="img">
                                        <img class="img-2" src={real.url} />
                             </label>
-                        </td>
-                        <td>
+                        
+                            <table>
+                               <tr>
                              <div class="content content-2">
                                 <table>
                                      <tr>
@@ -43,8 +43,7 @@ const DetailedCard = ({ sheetData }) => {
                             </div>
                          <Link to="/"><button>CLICK HERE FOR MORE PLANTS</button></Link>
                    </div>
-                </td>
-                </tr>
+                   </tr>
           </table>
         </div>
       </div>
