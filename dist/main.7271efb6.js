@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("c34a09d7867ca8f");
-var ErrorOverlay = require("6b7c319e89bfcb7f");
+var Refresh = require("e3b1837e6de7db53");
+var ErrorOverlay = require("54c97900672cab28");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"c34a09d7867ca8f":"786KC","6b7c319e89bfcb7f":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"e3b1837e6de7db53":"786KC","54c97900672cab28":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("8e500fe0824bfce1");
+module.exports = require("ac9206f58b5f1eb3");
 
-},{"8e500fe0824bfce1":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"ac9206f58b5f1eb3":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("8e500fe0824bfce1");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("5befd5d706ccdb52");
+var process = require("9a7cdf5aea3863ec");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("5befd5d706ccdb52");
     ]);
 });
 
-},{"5befd5d706ccdb52":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"9a7cdf5aea3863ec":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -3013,11 +3013,11 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Footer":"8pPOA","./components/Body":"8yaV8","./components/DetailedCard":"92Ak9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./constants":"3huJa"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Footer":"8pPOA","./components/Body":"8yaV8","./components/DetailedCard":"92Ak9","./constants":"3huJa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("9f5a2103ffcc3b9d");
+module.exports = require("15057301f0835849");
 
-},{"9f5a2103ffcc3b9d":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"15057301f0835849":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3029,7 +3029,7 @@ module.exports = require("9f5a2103ffcc3b9d");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("18168941aa6db2f8");
+    var React = require("8f44307f6130a41c");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3848,11 +3848,11 @@ module.exports = require("9f5a2103ffcc3b9d");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"18168941aa6db2f8":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"8f44307f6130a41c":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("329606057ad1de6b");
+module.exports = require("da7254aa3033da64");
 
-},{"329606057ad1de6b":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"da7254aa3033da64":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5732,9 +5732,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("3096424853284451");
+module.exports = require("a8825f357c1a858e");
 
-},{"3096424853284451":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"a8825f357c1a858e":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5747,8 +5747,8 @@ module.exports = require("3096424853284451");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("75f61d50bd0beca2");
-    var Scheduler = require("aa0715c0340c2b0f");
+    var React = require("1baa501879d19ba3");
+    var Scheduler = require("85f73eac89002b");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26719,11 +26719,11 @@ module.exports = require("3096424853284451");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"75f61d50bd0beca2":"21dqq","aa0715c0340c2b0f":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"1baa501879d19ba3":"21dqq","85f73eac89002b":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("f4927f77f1b3896a");
+module.exports = require("29089cd1ec86ef65");
 
-},{"f4927f77f1b3896a":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"29089cd1ec86ef65":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -32363,16 +32363,104 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
+var _headerCss = require("../css/header.css");
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
             to: "/",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "http://vignaniit.edu.in/images/Logo.jpg"
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "header",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Vignan_logo.png/1028px-Vignan_logo.png"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 10,
+                                columnNumber: 23
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: "#",
+                                        children: "Vignan's Institute of Information Technology"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 13,
+                                        columnNumber: 31
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 13,
+                                    columnNumber: 27
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 13,
+                                columnNumber: 23
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "header-right",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            className: "active",
+                                            href: "#home",
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Header.js",
+                                            lineNumber: 16,
+                                            columnNumber: 27
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            hrefN: "#contact",
+                                            children: "Contact"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Header.js",
+                                            lineNumber: 17,
+                                            columnNumber: 27
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "#about",
+                                            children: "About"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Header.js",
+                                            lineNumber: 18,
+                                            columnNumber: 27
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 15,
+                                    columnNumber: 26
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 14,
+                                columnNumber: 24
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 9,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 8,
+                    columnNumber: 17
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Header.js",
                 lineNumber: 7,
-                columnNumber: 17
+                columnNumber: 13
             }, undefined)
         }, void 0, false, {
             fileName: "src/components/Header.js",
@@ -32383,6 +32471,7 @@ const Header = ()=>{
 };
 _c = Header;
 exports.default = Header;
+exports.default = Header;
 var _c;
 $RefreshReg$(_c, "Header");
 
@@ -32391,9 +32480,9 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../css/header.css":"fEdOe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fEdOe":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("154cff3a761d4615");
+var Refresh = require("5fc513f6ca09f814");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -32524,7 +32613,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"154cff3a761d4615":"786KC"}],"8pPOA":[function(require,module,exports) {
+},{"5fc513f6ca09f814":"786KC"}],"8pPOA":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32535,98 +32624,124 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
+var _footerCss = require("../css/footer.css");
 const Footer = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                    children: "Members :"
-                }, void 0, false, {
-                    fileName: "src/components/Footer.js",
-                    lineNumber: 7,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                class: "footer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        class: "row",
+                        children: "Presented  By: GREEN CLUB || CO-ORDINATOR : MRS.SIRISHA"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        class: "row",
+                        children: "Designed By: IT DEPARTMENT 2021-2025"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        class: "row",
+                        children: "Follow US"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        class: "row",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                             children: [
-                                " ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Arnab Sarkar"
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "https://www.linkedin.com/in/battula-karthik-a95561236",
+                                            children: "Karthik"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.js",
+                                            lineNumber: 13,
+                                            columnNumber: 22
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Footer.js",
+                                    lineNumber: 13,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "https://www.linkedin.com/in/asrk06",
+                                            children: "Arnab"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.js",
+                                            lineNumber: 14,
+                                            columnNumber: 22
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Footer.js",
+                                    lineNumber: 14,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "https://www.linkedin.com/in/sri-abhiram-nadakuduti-6077b1256",
+                                        children: "Abhiram"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 15,
+                                        columnNumber: 21
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Footer.js",
-                                    lineNumber: 9,
-                                    columnNumber: 32
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Footer.js",
-                            lineNumber: 9,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "",
-                            children: [
-                                " ",
+                                    lineNumber: 15,
+                                    columnNumber: 17
+                                }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Raja Reddy"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "https://www.linkedin.com/in/raja-reddy-97075523b",
+                                        children: "Raja Reddy"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 16,
+                                        columnNumber: 21
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Footer.js",
-                                    lineNumber: 10,
-                                    columnNumber: 32
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Footer.js",
-                            lineNumber: 10,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "",
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Abhiram"
-                                }, void 0, false, {
-                                    fileName: "src/components/Footer.js",
-                                    lineNumber: 11,
-                                    columnNumber: 32
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Footer.js",
-                            lineNumber: 11,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "",
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "B.Karthik"
-                                }, void 0, false, {
-                                    fileName: "src/components/Footer.js",
-                                    lineNumber: 12,
-                                    columnNumber: 32
+                                    lineNumber: 16,
+                                    columnNumber: 17
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Footer.js",
                             lineNumber: 12,
-                            columnNumber: 17
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Footer.js",
-                    lineNumber: 8,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Footer.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, undefined)
+        }, void 0, false, {
             fileName: "src/components/Footer.js",
             lineNumber: 6,
-            columnNumber: 13
+            columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
@@ -32640,7 +32755,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8yaV8":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../css/footer.css":"a58Ll","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a58Ll":[function() {},{}],"8yaV8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32653,10 +32768,12 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _card = require("./Card");
 var _cardDefault = parcelHelpers.interopDefault(_card);
+var _bodyCss = require("../css/body.css");
 var _reactRouterDom = require("react-router-dom");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Body = ({ sheetData  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card-wrapper",
         children: sheetData.map((plant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                 to: "/" + plant.sno,
                 children: /*#__PURE__*/ (0, _react.createElement)((0, _cardDefault.default), {
@@ -32664,19 +32781,19 @@ const Body = ({ sheetData  })=>{
                     key: plant.sno,
                     __source: {
                         fileName: "src/components/Body.js",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 17
                     },
                     __self: undefined
                 })
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 13
             }, undefined))
     }, void 0, false, {
         fileName: "src/components/Body.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 9
     }, undefined);
 };
@@ -32690,7 +32807,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./Card":"dP2hV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"dP2hV":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Card":"dP2hV","../css/body.css":"jDcQp","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dP2hV":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c7f5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32700,35 +32817,144 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const Card = ({ sno , CommonName , ScientificName , uses , habitat , url  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: url,
-                alt: CommonName
-            }, void 0, false, {
+var _styleCss = require("../css/style.css");
+const Card = ({ sno , CommonName , scientificName , uses , Habitat , url  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flip-card-container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flip-card",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "card-front",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figure", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "img-bg"
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 10,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: url,
+                                    alt: CommonName
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 11,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figcaption", {
+                                    children: CommonName
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 12,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                    children: CommonName
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 13,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                    children: scientificName
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 14,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                    children: Habitat
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 15,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                    children: uses
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 16,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Card.js",
+                            lineNumber: 9,
+                            columnNumber: 15
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Card.js",
+                        lineNumber: 8,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "card-back",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figure", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "img-bg"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Card.js",
+                                        lineNumber: 21,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: url,
+                                        alt: CommonName
+                                    }, void 0, false, {
+                                        fileName: "src/components/Card.js",
+                                        lineNumber: 22,
+                                        columnNumber: 17
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Card.js",
+                                lineNumber: 20,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "./plants/rose.html",
+                                    children: " Know more"
+                                }, void 0, false, {
+                                    fileName: "src/components/Card.js",
+                                    lineNumber: 26,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Card.js",
+                                lineNumber: 25,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Card.js",
+                        lineNumber: 19,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Card.js",
-                lineNumber: 11,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: CommonName
-            }, void 0, false, {
-                fileName: "src/components/Card.js",
-                lineNumber: 12,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: ScientificName
-            }, void 0, false, {
-                fileName: "src/components/Card.js",
-                lineNumber: 13,
-                columnNumber: 13
+                lineNumber: 7,
+                columnNumber: 11
             }, undefined)
-        ]
-    }, void 0, true);
+        }, void 0, false, {
+            fileName: "src/components/Card.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Card.js",
+        lineNumber: 4,
+        columnNumber: 5
+    }, undefined);
 };
 _c = Card;
+exports.default = Card;
 exports.default = Card;
 var _c;
 $RefreshReg$(_c, "Card");
@@ -32738,7 +32964,7 @@ $RefreshReg$(_c, "Card");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"92Ak9":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../css/style.css":"6ZQyu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6ZQyu":[function() {},{}],"jDcQp":[function() {},{}],"92Ak9":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1eed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32749,74 +32975,265 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
+var _cardstyleCss = require("../css/Cardstyle.css");
 var _s = $RefreshSig$();
 const DetailedCard = ({ sheetData  })=>{
     _s();
     const { sno  } = (0, _reactRouterDom.useParams)();
     const real = sheetData.find((plant)=>plant.sno == sno);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: real.url,
-                alt: real.CommonName
-            }, void 0, false, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 11,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: real.CommonName
-            }, void 0, false, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 12,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: real.ScientificName
-            }, void 0, false, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 13,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: real.uses
-            }, void 0, false, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 14,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: real.Habitat
-            }, void 0, false, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 15,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                children: [
-                    "To Know more about Greens of Vignan ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/",
-                        children: "CLICK HERE!"
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            class: "blog-card",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                    type: "radio",
+                    name: "select",
+                    id: "tap-2",
+                    checked: true
+                }, void 0, false, {
+                    fileName: "src/components/DetailedCard.js",
+                    lineNumber: 10,
+                    columnNumber: 14
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                    type: "checkbox",
+                    id: "imgTap"
+                }, void 0, false, {
+                    fileName: "src/components/DetailedCard.js",
+                    lineNumber: 11,
+                    columnNumber: 14
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    class: "inner-part",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        for: "imgTap",
+                                        class: "img",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            class: "img-2",
+                                            src: real.url
+                                        }, void 0, false, {
+                                            fileName: "src/components/DetailedCard.js",
+                                            lineNumber: 17,
+                                            columnNumber: 40
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DetailedCard.js",
+                                        lineNumber: 16,
+                                        columnNumber: 29
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/DetailedCard.js",
+                                    lineNumber: 15,
+                                    columnNumber: 26
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        class: "content content-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                class: "title",
+                                                                children: "Common Name:"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/DetailedCard.js",
+                                                                lineNumber: 24,
+                                                                columnNumber: 45
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/DetailedCard.js",
+                                                            lineNumber: 24,
+                                                            columnNumber: 41
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                class: "text",
+                                                                children: [
+                                                                    " ",
+                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                        children: real.CommonName
+                                                                    }, void 0, false, {
+                                                                        fileName: "src/components/DetailedCard.js",
+                                                                        lineNumber: 25,
+                                                                        columnNumber: 64
+                                                                    }, undefined)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "src/components/DetailedCard.js",
+                                                                lineNumber: 25,
+                                                                columnNumber: 45
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/DetailedCard.js",
+                                                            lineNumber: 25,
+                                                            columnNumber: 41
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/DetailedCard.js",
+                                                    lineNumber: 23,
+                                                    columnNumber: 38
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 22,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                class: "title",
+                                                                children: "ScientificName:"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/DetailedCard.js",
+                                                                lineNumber: 30,
+                                                                columnNumber: 46
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/DetailedCard.js",
+                                                            lineNumber: 30,
+                                                            columnNumber: 42
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                            children: [
+                                                                " ",
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                    class: "text",
+                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                        children: real.ScientificName
+                                                                    }, void 0, false, {
+                                                                        fileName: "src/components/DetailedCard.js",
+                                                                        lineNumber: 32,
+                                                                        columnNumber: 47
+                                                                    }, undefined)
+                                                                }, void 0, false, {
+                                                                    fileName: "src/components/DetailedCard.js",
+                                                                    lineNumber: 31,
+                                                                    columnNumber: 48
+                                                                }, undefined)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "src/components/DetailedCard.js",
+                                                            lineNumber: 31,
+                                                            columnNumber: 43
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/DetailedCard.js",
+                                                    lineNumber: 29,
+                                                    columnNumber: 39
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 28,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                class: "title",
+                                                children: "Habitat:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 36,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                class: "text",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                    children: real.Habitat
+                                                }, void 0, false, {
+                                                    fileName: "src/components/DetailedCard.js",
+                                                    lineNumber: 38,
+                                                    columnNumber: 36
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 37,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                class: "title",
+                                                children: "Uses:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 40,
+                                                columnNumber: 28
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                class: "text",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                    children: real.uses
+                                                }, void 0, false, {
+                                                    fileName: "src/components/DetailedCard.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 37
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 41,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: "/",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    children: "CLICK HERE FOR MORE PLANTS"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/DetailedCard.js",
+                                                    lineNumber: 44,
+                                                    columnNumber: 39
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/DetailedCard.js",
+                                                lineNumber: 44,
+                                                columnNumber: 26
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DetailedCard.js",
+                                        lineNumber: 21,
+                                        columnNumber: 30
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/DetailedCard.js",
+                                    lineNumber: 20,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DetailedCard.js",
+                            lineNumber: 14,
+                            columnNumber: 23
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/DetailedCard.js",
-                        lineNumber: 16,
-                        columnNumber: 53
+                        lineNumber: 13,
+                        columnNumber: 18
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/DetailedCard.js",
-                lineNumber: 16,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "src/components/DetailedCard.js",
+                    lineNumber: 12,
+                    columnNumber: 14
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/DetailedCard.js",
+            lineNumber: 9,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/DetailedCard.js",
-        lineNumber: 10,
-        columnNumber: 9
+        lineNumber: 8,
+        columnNumber: 5
     }, undefined);
 };
-_s(DetailedCard, "uYg+96A7MBS9zbJUVVllt8dXmYE=", false, function() {
+_s(DetailedCard, "rH0vXWh5VUKmujSHJQjqzJbBLcU=", false, function() {
     return [
         (0, _reactRouterDom.useParams)
     ];
@@ -32831,7 +33248,7 @@ $RefreshReg$(_c, "DetailedCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3huJa":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../css/Cardstyle.css":"d7GU0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d7GU0":[function() {},{}],"3huJa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const sheetData = [
@@ -32841,7 +33258,7 @@ const sheetData = [
         ScientificName: "Azadirachta indica",
         uses: "The Neem tree is known for its medicinal properties and is widely used in Ayurvedic medicine. Its leaves, bark, and seeds are used to treat a variety of ailments, such as",
         Habitat: "The Neem tree is native to the Indian subcontinent and can be found in tropical and subtropical regions of Southeast Asia",
-        url: "https://5.imimg.com/data5/SELLER/Default/2021/5/RU/EL/LQ/76591799/neem-tree-500x500.jpg"
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Neem_%28Azadirachta_indica%29_in_Hyderabad_W_IMG_6976.jpg/640px-Neem_%28Azadirachta_indica%29_in_Hyderabad_W_IMG_6976.jpg"
     },
     {
         sno: 2,
@@ -32849,7 +33266,7 @@ const sheetData = [
         ScientificName: "Schizolobium parahyba",
         uses: "Formerly used for dugout canoes, it is now used for toys, boxes, shoe heels, the inner layers of laminated wood, and paper.The leaves contain water-soluble substances that act as antidotes to the bites of Bothrops snakes.",
         Habitat: "Atlantic rainforest, most commonly in open, secondary formations, preferring valley bottoms, alluvial plains and near rivers, forming dense groups in hillside depressions",
-        url: "https://img.bidorbuy.co.za/image/upload/c_limit,h_448,q_auto:eco,w_448/user_images/651/390651/210921151854_Schizolobium%20parahyba.jpg"
+        url: "https://aboutcagayandeoro.com/wp-content/uploads/2022/01/272046442_3095393474077008_6189069200896132135_n.jpg?x63394"
     },
     {
         sno: 3,
@@ -32857,7 +33274,7 @@ const sheetData = [
         ScientificName: "Mangifera indica",
         uses: "Various parts of plant are used as a dentrifrice, antiseptic, astringent, diaphoretic, stomachic, vermifuge, tonic, laxative and diuretic and to treat diarrhea, dysentery, anaemia, asthma, bronchitis, cough, hypertension, insomnia, rheumatism, toothache, leucorrhoea, haemorrhage and piles.",
         Habitat: "It is native tropical Asia and has been cultivated in the Indian subcontinent for over 4000 years and is now found naturalized in most tropical countries. Parts used: Roots, bark, leaves, fruits, seeds, flowers and kernels are used",
-        url: "https://images.app.goo.gl/koJ1f3doaWMQ3ox2A"
+        url: "https://5.imimg.com/data5/SELLER/Default/2020/12/LZ/PC/FN/77617377/safeda-mango-plant-1000x1000.jpg"
     },
     {
         sno: 4,
@@ -32865,7 +33282,7 @@ const sheetData = [
         ScientificName: "Eucalyptus staigeriana",
         uses: "Eucalyptus Lemon Ironbark Essential Oil Uses.In an oil burner, air freshener, potpourri, massage oil, kitchen and bathroom cleaning, dishwashing liquid. In a bath, footbath, sauna, vacuum cloth bag, floor washing water, add to clothes washing, bathroom cleaning.",
         Habitat: "Eucalyptus staigeriana, lemon ironbark or lemon-scented ironbark, is a small rough barked sclerophyll tree that grows naturally in pure stands on hills in the Palmer River region of Cape York, North Queensland,Australia.",
-        url: "https://images.app.goo.gl/78MLmLxBabrrnHRK7"
+        url: "https://images.ekko.world/pictures/5/5043.png"
     },
     {
         sno: 5,
@@ -32881,7 +33298,7 @@ const sheetData = [
         ScientificName: "Biancaea sappan",
         uses: "It has antibacterial and anticoagulant properties. It also produces a valuable reddish dye called brazilin, used for dyeing fabric as well as making red paints and inks.",
         Habitat: "Tod. The native range of this species is Indian Subcontinent to Indo-China. It is a scrambling shrub or tree and grows primarily in the seasonally dry tropical biome.",
-        url: "https://images.app.goo.gl/Tjnvmd2LqppkVb9e8"
+        url: "https://upload.wikimedia.org/wikipedia/commons/1/13/Caesalpinia_sappan_%28Sappan_wood%29_W_IMG_3341.jpg"
     },
     {
         sno: 7,
@@ -32889,7 +33306,7 @@ const sheetData = [
         ScientificName: "Eugania Involucrata",
         uses: "It is used for intestinal problems and it's fruits are used to make jams",
         Habitat: "It is native to Brazil",
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Eugenia1.jpg"
+        url: "https://5.imimg.com/data5/IOS/Default/2021/12/XF/OV/GF/110796818/product-jpeg-1000x1000.png"
     },
     {
         sno: 8,
@@ -32897,7 +33314,7 @@ const sheetData = [
         ScientificName: "Broussonetia papyrifera",
         uses: "Paper mulberry was introduced for use as a fast-growing, ornamental shade tree. In its native lands, paper mulberry is used in paper making.In Hawaii and other parts of the South Pacific, its bark is used to make cloth.",
         Habitat: "Its natural habitat is in Asia, where it can be found in places like India, Japan, Indochina, China, Korea, and Burma. It is widely cultivated worldwide and has spread to portions of Africa, the US, and Europe as an invasive plant.",
-        url: "https://images.app.goo.gl/4Er6cAFQcW1bBziM8"
+        url: "https://upload.wikimedia.org/wikipedia/commons/7/79/Murier.jpg"
     },
     {
         sno: 9,
@@ -32905,7 +33322,7 @@ const sheetData = [
         ScientificName: "Azima tetracantha",
         uses: "Azima tetracantha, a traditional medicinal plant included in the order Brassicales and family Salvadoraceae, is widely used as a dietary supplement in folklore medicines. The plant is also used for the treatment of rheumatism, diarrhea and other inflammatory disorders.",
         Habitat: "Azima tetracantha occurs from Cape Infanta in South Africa to tropical Africa. In South Africa it is found in the following provinces: Western Cape, Eastern Cape, KwaZulu-Natal and Mpumalanga. It occurs in lowland scrub, forest, mangrove edges, sea-dunes, coastal bushland, not far from the high-water mark.",
-        url: "https://images.app.goo.gl/AeQeGQwzjqsjchub6"
+        url: "https://www.theyrenotourgoats.com/wp-content/uploads/2014/08/wildplantain.jpg"
     },
     {
         sno: 10,
@@ -32929,7 +33346,7 @@ const sheetData = [
         ScientificName: "Xylia Xylocarpa",
         uses: "It's leaves are used to treat wounds in elephants and it's woodpulp is used for wrapping papers",
         Habitat: "It is native to South and South East Asia",
-        url: "https://images.app.goo.gl/zyRoNpiA8yijytVa7"
+        url: "https://live.staticflickr.com/3640/3392720088_21e942a76a_b.jpg"
     },
     {
         sno: 13,
@@ -32937,7 +33354,7 @@ const sheetData = [
         ScientificName: "Parthenium Hysterophorous",
         uses: "It is used to treat stomach aches, tooth aches",
         Habitat: "It is native to Tropical America",
-        url: "https://images.app.goo.gl/tHRZ8kk9E2m9hyqa6"
+        url: "https://upload.wikimedia.org/wikipedia/commons/6/66/Parthenium_hysterophorus_L._%284171282018%29.jpg"
     },
     {
         sno: 14,
@@ -32945,7 +33362,7 @@ const sheetData = [
         ScientificName: "Acacia Confusa",
         uses: "It is used to dye, stain clothes and tan leather",
         Habitat: "It is native to South East Asia",
-        url: "https://images.app.goo.gl/UMeNX21YQpsWg8Yu5"
+        url: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Acacia_covenyi02.jpg"
     },
     {
         sno: 15,
@@ -32953,15 +33370,15 @@ const sheetData = [
         ScientificName: "Boehmeria Nivea",
         uses: "It is used in sewing threads, packing materials.",
         Habitat: "It is native to Eastern Asia",
-        url: "https://images.app.goo.gl/7KnhQQ7vLdQ5jD8n6"
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Boehmeria_nivea_kz5.jpg/1200px-Boehmeria_nivea_kz5.jpg"
     },
     {
         sno: 16,
-        CommonName: "citrus family,",
+        CommonName: "citrus family",
         ScientificName: "Rutaceae",
         uses: "It is used for obesity and conjestive heart failure",
         Habitat: "It grows in subtropical and littoral rainforests",
-        url: "https://images.app.goo.gl/zcHTXXfYivDqLa9F6"
+        url: "https://upload.wikimedia.org/wikipedia/commons/b/b0/OrangeBloss_wb.jpg"
     },
     {
         sno: 17,
@@ -32969,7 +33386,7 @@ const sheetData = [
         ScientificName: "Streblus Asper",
         uses: "It has been important in papermaking in Thailand.",
         Habitat: "It typically grows in lowland and upland forests",
-        url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fstreblus-asper-greentree-khoigreen-leaf-backgroundplant-1041676090&psig=AOvVaw0b0MFXh3PKZDGE4tBqdaTO&ust=1679404739740000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKiW-6XM6v0CFQAAAAAdAAAAABAy"
+        url: "https://t4.ftcdn.net/jpg/02/41/50/09/360_F_241500987_LL7WGWxxU4RvFKkJzcE1dtAak7ZqizXt.jpg"
     },
     {
         sno: 18,
@@ -32977,7 +33394,7 @@ const sheetData = [
         ScientificName: "Trifolium",
         uses: "It is used to treat cancer, cough, other respiratory problems",
         Habitat: "Originating in Europe",
-        url: "https://images.app.goo.gl/dmJVg1PFkDCPpp8s9"
+        url: "https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTgxNDU5NDY0MzY1OTQ4/four-leaf-clovers-jpg.jpg"
     },
     {
         sno: 19,
@@ -32985,7 +33402,7 @@ const sheetData = [
         ScientificName: "Polyscias Fruticosa",
         uses: "It is used in neurodegeneration",
         Habitat: "It grows in tropical areas from India to Ploynesia",
-        url: "https://images.app.goo.gl/EwSJk9BCcdBej8ov6"
+        url: "https://storage.googleapis.com/powop-assets/kew_profiles/Hedera-helix_fullsize.jpg"
     },
     {
         sno: 20,
@@ -33009,7 +33426,7 @@ const sheetData = [
         ScientificName: "Chrysopogon zizanioides",
         uses: "Vetiver is sometimes applied directly to the skin for relieving stress, as well as for emotional traumas and shock, lice, and repelling insects",
         Habitat: "It grows wild in low, damp sites such as swamps and bogs",
-        url: "https://images.app.goo.gl/v6kCnWudyus3Zyg18"
+        url: "https://farmseller.in/wp-content/uploads/2022/01/Vetiver-plant.jpg"
     },
     {
         sno: 23,
@@ -33025,7 +33442,7 @@ const sheetData = [
         ScientificName: "Rhapis Excelsa",
         uses: "It is used as air filtering plant",
         Habitat: "It grow in Southern China and Taiwan",
-        url: "https://images.app.goo.gl/ELaDXKSHnyAb3kUE8"
+        url: "https://urbanpalms.com/wp-content/uploads/PA-R-EXCE-2-360x480.jpg"
     },
     {
         sno: 25,
@@ -33033,7 +33450,7 @@ const sheetData = [
         ScientificName: "Eurycoma Longifolia",
         uses: "It is used to improve low testosterone, male fertility",
         Habitat: "It is native to Indonesia and Malaysia",
-        url: "https://images.app.goo.gl/soKgbmrypLUydyeFA"
+        url: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Tongkat_Ali_%28Eurycoma_longifolia%29_1.jpg"
     },
     {
         sno: 26,
@@ -33041,7 +33458,7 @@ const sheetData = [
         ScientificName: "Anthurium amnicola",
         uses: "It has been used extensively in hybridizing small, colorful, pot plants for indoor culture.",
         Habitat: "With its tulip‑like flowers it was grown in Hawaii for the cut flower industry",
-        url: "https://images.app.goo.gl/NVKvHL7wrZmUpDJC7"
+        url: "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-bulbs-tulip-diamond-purple-flower-bulbs_391dd456-744e-4f32-953c-0ddf00e2e30f_512x512.jpg?v=1634230568"
     },
     {
         sno: 27,
@@ -33049,7 +33466,7 @@ const sheetData = [
         ScientificName: "Borassus flabellifer",
         uses: "Ice apple may be used as an aperient to relieve constipation and might benefit the digestion process.",
         Habitat: "Borassus flabellifer has a growth pattern, very large size, and clean habits that make it an attractive ornamental tree, cultivated for planting in gardens and parks as landscape palm species.",
-        url: "https://en.wikipedia.org/wiki/File:Borassus_flabellifer_Karimpana_at_Rappadi_Garden_Palakkad.JPG"
+        url: "https://indiagardening.b-cdn.net/wp-content/uploads/2020/02/Borassus-flabellifer.jpg"
     },
     {
         sno: 28,
@@ -33057,7 +33474,7 @@ const sheetData = [
         ScientificName: "Cocos Nucifera",
         uses: "It is used as food, fuel, cosmectics",
         Habitat: "It mostly thrives in sandy soils",
-        url: "https://images.app.goo.gl/qTjQgcMhQXenhAdT8"
+        url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81Q-0cGRLDL._SL1484_.jpg"
     },
     {
         sno: 29,
@@ -33081,7 +33498,7 @@ const sheetData = [
         ScientificName: "Ixora coccinea",
         uses: "It is used in culinary and also heals wounds.",
         Habitat: "It is a native to southeast Asia",
-        url: "https://www.bing.com/images/search?view=detailV2&ccid=H8CrmZIL&id=6A9AA20600A41F51248F01A0A65817958C813CE6&thid=OIP.H8CrmZIL2jCm6aPVc-oCnwHaHa&mediaurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f8d%2fda%2fdf%2f8ddadf41a518714eae48c4b6ce400bf1.jpg&exph=960&expw=960&q=Jungle+Geranium+Native&simid=607997065561446969&FORM=IRPRST&ck=CBA12C9B62CA3FAFC0E1FA30C09C3E64&selectedIndex=3"
+        url: "https://cdn.shopify.com/s/files/1/0489/5922/6015/files/2_5b3b6776-02c5-4713-859f-41c4142dfd25_480x480.jpg?v=1666027993"
     },
     {
         sno: 32,
@@ -33089,7 +33506,7 @@ const sheetData = [
         ScientificName: "Duranta repens",
         uses: "traditional medicinal plants",
         Habitat: "native from Florida to Brazil and in the West Indies.",
-        url: "https://en.wikipedia.org/wiki/Duranta_erecta"
+        url: "https://www.monaconatureencyclopedia.com/wp-content/uploads/2020/11/1-Duranta-erecta.jpg"
     },
     {
         sno: 33,
@@ -33097,7 +33514,7 @@ const sheetData = [
         ScientificName: "Myrtacaea",
         uses: "It is used as food, medicine and for oil",
         Habitat: "It grows mostly in North America",
-        url: "https://images.app.goo.gl/qTjQgcMhQXenhAdT8"
+        url: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Calyptranthes_clusiifolia.jpg"
     },
     {
         sno: 34,
@@ -33121,7 +33538,7 @@ const sheetData = [
         ScientificName: "Silene vulgaris",
         uses: "The leaves of Bladder Campion are edible, and they are used in salads and many other dishes in some Mediterranean countries",
         Habitat: "It is fairly common in Britain, but is mostly found in the south of England in meadows and fields, and along roadside verges, dry banks, and hedgerows.",
-        url: "https://images.app.goo.gl/V4D1MFNZAR3M9xVu8"
+        url: "https://www.healthbenefitstimes.com/9/uploads/2019/03/Facts-about-Bladder-campion-702x459.jpg"
     },
     {
         sno: 37,
@@ -33137,7 +33554,7 @@ const sheetData = [
         ScientificName: "Sideroxylon inerme",
         uses: "It is used in treatment of malaria, jaundice, cancer",
         Habitat: "It is native to Southern China",
-        url: "https://images.app.goo.gl/DoRSP2ZCeFXc7rs59"
+        url: "https://www.healingorchids.com/images/africantree/trees/milkwoodtreeflower-480.jpg"
     },
     {
         sno: 39,
@@ -33145,7 +33562,7 @@ const sheetData = [
         ScientificName: "Chimaphila maculata",
         uses: "it is used to treat diabetes as well as general stomach trouble, arthritis, backache, neuritis, rheumatism, bladder problems, as a diuretic, an astringent and as a pain …",
         Habitat: "tends to grow in undisturbed habitats in leaf and needle mulch and on decomposing logs.",
-        url: "https://images.app.goo.gl/N7B2JE2Tva9AmgrF8"
+        url: "http://1.bp.blogspot.com/_iGZiQ1bPbT4/THbv82Kd_3I/AAAAAAAADRU/OQfCUDkS1tw/s1600/P5305669-web11.jpg"
     },
     {
         sno: 40,
@@ -33193,7 +33610,7 @@ const sheetData = [
         ScientificName: "Citrus \xd7 microcarpa",
         uses: "It is very commonly used as a condiment in dishes like pancit or lugaw, or in the basic sawsawan (dip) of calamansi juice and soy sauce/fish sauce used for fish, spring rolls, dumplings and various savoury dishes.",
         Habitat: "It is native to the Philippines, Borneo, Sumatra, and Sulawesi (Indonesia, Malaysia, and Brunei) in Southeast Asia; as well as southern China and Taiwan in East Asia.",
-        url: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.etsystatic.com%2F30575830%2Fr%2Fil%2F5845a3%2F3701651220%2Fil_fullxfull.3701651220_bulj.jpg&tbnid=oTDuliUp4u-JYM&vet=1&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Fuk%2Flisting%2F1077272308%2F4ft-calamansicalamondin-sour-phillipines&docid=mIQxAZte0vXhLM&w=2244&h=2992&itg=1&hl=en-US&source=sh%2Fx%2Fim"
+        url: "https://cdn.shopify.com/s/files/1/2000/3817/products/20210810_100526_grande.jpg?v=1628567764"
     },
     {
         sno: 46,
@@ -33201,7 +33618,7 @@ const sheetData = [
         ScientificName: "Blumea balsamifera",
         uses: 'Its primary uses are as a diuretic (or "water pill") and to treat symptoms of the common cold.',
         Habitat: "Blumea is a genus of flowering plants of the family Asteraceae.",
-        url: "https://images.app.goo.gl/BqhSY47DHEmZqmwD6"
+        url: "https://lh5.googleusercontent.com/-Tzb8AKRf6WM/T4mu9qpBuXI/AAAAAAAADdo/H4LcdzkPUTQ/s1600/DSCN2058.jpg"
     },
     {
         sno: 47,
@@ -33225,7 +33642,7 @@ const sheetData = [
         ScientificName: "Euphorbia hirta",
         uses: "Euphorbia hirta is often used traditionally for female disorders, respiratory ailments (cough, coryza, bronchitis, and asthma),",
         Habitat: "Euphorbia hirta (sometimes called asthma-plant) is a pantropical weed, originating from the tropical regions of the Americas. It is a hairy herb that grows in open grasslands, roadsides and pathways.",
-        url: "https://images.app.goo.gl/TmC2ih6Fv2NxENnk8"
+        url: "https://1.bp.blogspot.com/-mBNTzFPBHV8/YLtsm2o76bI/AAAAAAAAVqM/4WPqmGLOJTcg4jK-jPDW3lq-uHZQ4uLUwCLcBGAsYHQ/s2048/Dudhia%252C%2BAsthma_plant%252C%2BEuphorbia_hirta_01.JPG"
     },
     {
         sno: 50,
@@ -33281,7 +33698,7 @@ const sheetData = [
         ScientificName: "Zanthoxylum fagara",
         uses: "Use it as an accent or specimen, in containers, as a patio tree, as a border or hedge.",
         Habitat: "Wild lime is a small tree native to south Florida and the Caribbean Basin . It grows as an understory tree in the coastal upland plant communities on the lee side of the dunes in south Florida.",
-        url: "https://images.app.goo.gl/7CB8hkwN29aVoRZv7"
+        url: "https://cdn.shopify.com/s/files/1/0505/8687/8125/collections/Fragrance_WildLime_1.jpg?v=1677669961&width=1200"
     },
     {
         sno: 57,
@@ -33297,7 +33714,7 @@ const sheetData = [
         ScientificName: "Chenopodium album",
         uses: "Repairs cell.Cures constipation.Aids in weight loss.Purifies blood.Good for hair.Promotes eye health",
         Habitat: "Roadsides, fields, gardens; plains, valleys (Lesica et al. 2012.",
-        url: "https://images.app.goo.gl/HWacGD2xHJghZx3U8"
+        url: "https://www.nature-and-garden.com/wp-content/uploads/sites/4/2022/09/goosefoot.jpg"
     },
     {
         sno: 59,
@@ -33305,22 +33722,22 @@ const sheetData = [
         ScientificName: "chlorophytum comosum",
         uses: "Thick, fleshy roots allow spider plant to tolerate inconsistent watering",
         Habitat: "these plants native to tropical and subtropical regions of Africa, Asia, and Australia",
-        url: "https://images.app.goo.gl/gxPWfHhJqm65L6WX8"
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcp-eG4xfuDD_b2mO83ALaCsliGyslbIL_g&usqp=CAU"
     },
     {
         sno: 60,
         CommonName: "blackboard",
         ScientificName: "Alstonia scholaris",
         uses: "Found in the sub-Himalayan tract. It occurs in tropical, subtropical, moist deciduous forests in India.",
-        url: "https://images.app.goo.gl/xb4t1a9Nayqsvdey5"
+        url: "https://img.freepik.com/premium-photo/colorful-alstonia-scholaris-leaves-commonly-called-blackboard-tree-natural-background_358675-1213.jpg"
     },
     {
         sno: 61,
         CommonName: "Henequen",
         ScientificName: "Agave fourcroydes",
         uses: "agave syrup and fructans,soaps ,detergents,bug repellent,hair treatements",
-        Habitat: " Agave species are also native to tropical areas of North America, such as Mexico.",
-        url: "https://images.app.goo.gl/T9wjvgt33sgdTGSn9"
+        Habitat: "Agave species are also native to tropical areas of North America, such as Mexico.",
+        url: "https://upload.wikimedia.org/wikipedia/en/7/7f/Henequen.jpg"
     },
     {
         sno: 62,
@@ -33328,7 +33745,7 @@ const sheetData = [
         ScientificName: "tectona grandis",
         uses: "teak leaves can treat constipation,and used as natural laxative",
         Habitat: "It is found in a variety of habitats and climatic conditions from arid areas with only 500 mm of rain per year to very moist forests.",
-        url: "https://images.app.goo.gl/HThYXJEzRK4rcRWC7"
+        url: "https://thumbs.dreamstime.com/b/trees-teak-tree-looking-up-sunlight-morning-sky-cloud-183760437.jpg"
     },
     {
         sno: 63,
@@ -33336,7 +33753,7 @@ const sheetData = [
         ScientificName: "Hyophorbe lagenicaulis",
         uses: "air purification,used for making oil ,wine,jelly",
         Habitat: "It is one of three Hyophorbe species which naturally occur in Mauritius, and one of only two that are still extant.",
-        url: "https://images.app.goo.gl/1koLVChFKGVMExyBA"
+        url: "https://4.imimg.com/data4/TT/NG/MY-9672449/kjh-500x500.jpg"
     },
     {
         sno: 64,
@@ -33488,7 +33905,7 @@ const sheetData = [
         ScientificName: "balsamodendron",
         uses: "in the Ayurveda since time immemorial for the treatment of variety of disorders such as inflammation, gout, rheumatism, obesity, and disorders of lipids metabolism.",
         Habitat: "Occurs in the arid rocky tracts of Rajputana, Khandesh, Berar, Mysore, Sind and Baluchistan",
-        url: "https://images.app.goo.gl/i1FsoJdMv8j9Lyij6"
+        url: "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/08/guggul-1296x728-header.jpg?w=1155&h=1528"
     },
     {
         sno: 83,
@@ -33496,7 +33913,7 @@ const sheetData = [
         ScientificName: "Chionanthus retusus",
         uses: "Fringetree is traditionally used for liver and gallbladder disorders, like gallstones, and other conditions",
         Habitat: "Mixed forests, thickets, riversides; 0–3000 m asl in China",
-        url: "https://images.app.goo.gl/4mpoCgeqG5iRDHMK7"
+        url: "https://buchanansplants.com/wp-content/uploads/2021/09/Chinese-Fringetree.jpg"
     },
     {
         sno: 84,
@@ -33504,7 +33921,7 @@ const sheetData = [
         ScientificName: "Allamanda cathartica",
         uses: "Allamanda species have been used in systems of traditional medicine for various purposes",
         Habitat: "Yellow allamanda (Allamanda cathartica) prefers moist, well-drained, soils in tropical regions.",
-        url: "https://images.app.goo.gl/UNasNx5ZyscyUTWF7"
+        url: "https://sbbeautiful.org/wp-content/uploads/2021/03/golden-trumpet-tree-photo-david-gress.jpg"
     },
     {
         sno: 85,
@@ -33512,7 +33929,7 @@ const sheetData = [
         ScientificName: "Philodendron",
         uses: "can remove pollutants like formaldehyde and clean the air&leaves absorb moisture and gives clean oxygen",
         Habitat: "humid tropical forests",
-        url: "https://images.app.goo.gl/8JHLKhdEd5zbK1zv6"
+        url: "https://houseplantauthority.com/wp-content/uploads/2022/03/train-pothos-climb.jpg"
     },
     {
         sno: 86,
@@ -33520,7 +33937,7 @@ const sheetData = [
         ScientificName: "Ixora coccinea",
         uses: "t is used as an ornamental plant in gardens and parks. In traditional medicine, it is used to treat various ailments such as fever, skin infections, and inflammation.",
         Habitat: "It is native to tropical and subtropical areas of Asia and can be found growing in a wide range of habitats, including forests, grasslands, and near water sources.",
-        url: "https://images.app.goo.gl/5XJLXeJNzk3yW5t4A"
+        url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Ixora_coccinea.jpg"
     },
     {
         sno: 87,
@@ -33528,7 +33945,7 @@ const sheetData = [
         ScientificName: "Ornithogalum umbellatum",
         uses: "It is a popular indoor plant due to its ease of care and air-purifying properties. It is also used in traditional medicine to treat coughs and colds.",
         Habitat: "It is native to South Africa and can be found growing in a variety of habitats, including grasslands, rocky outcrops, and forests. It is commonly cultivated as a houseplant in many parts of the world.",
-        url: "https://images.app.goo.gl/fPm4DsxNKCxDPBBP9"
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ornithogalum_umbellatum-Tci.jpg/300px-Ornithogalum_umbellatum-Tci.jpg"
     },
     {
         sno: 88,
@@ -33536,7 +33953,7 @@ const sheetData = [
         ScientificName: "Cochlospermum religiosum",
         uses: "The flowers are used in traditional medicine for various ailments such as fever, cough, and skin diseases. They are also used in the production of dyes and textiles.",
         Habitat: "The yellow silk cotton tree is native to tropical regions of Africa and Asia and can be found growing in savannahs, dry forests, and riverbanks.",
-        url: "https://images.app.goo.gl/WToZs1MKXVXmJxNK8"
+        url: "https://www.toothmountainnursery.com/wp-content/uploads/2020/03/Yellow-cotton-tree.jpg"
     },
     {
         sno: 89,
@@ -33544,7 +33961,7 @@ const sheetData = [
         ScientificName: "Thuja orientalis",
         uses: "The wood is used for construction and furniture-making, while the essential oil is used in perfumes and aromatherapy.",
         Habitat: "Native to China, Korea, and Japan, it can be found in a variety of habitats including forests, mountain slopes, and riverbanks.perfumes and aromatherapy",
-        url: "https://images.app.goo.gl/idmjrVimo6Z6mjzN7"
+        url: "https://i.pinimg.com/originals/0d/cf/ac/0dcfac44b245becbb97336e3f514855e.jpg"
     },
     {
         sno: 90,
@@ -33567,7 +33984,8 @@ const sheetData = [
         CommonName: "Aralia",
         ScientificName: "Aralia sp",
         uses: "used as food plants by the larvae of some Lepidoptera species, including the common emerald (Hemithea aestivaria). There are many colours of aralia flowers. The main flower is whitish aralia. Some species, notably Aralia cordata, are edible and are cultivated for human consumption.",
-        url: "The Ming aralia is widely cultivated in several countries of Southeast Asia and the tropical islands of the Pacific region."
+        Habitat: "The Ming aralia is widely cultivated in several countries of Southeast Asia and the tropical islands of the Pacific region.",
+        url: "https://wildroots.in/wp-content/uploads/2020/08/Untitled-design-2021-07-22T111905.490.jpg"
     },
     {
         sno: 93,
@@ -33575,7 +33993,7 @@ const sheetData = [
         ScientificName: "Morinda Tinctoria",
         uses: "Early studies reported that the extract of leaf, root, and fruits of this plant showed anti-bacterial, analgesic, anti-oxidant, anti-inflammatory, astringent, laxative, sedative, and hypotensive (lowers blood pressure) potentials",
         Habitat: "Is a species of flowering plant in the family Rubiaceae, native to southern Asia. Roxb. It is an evergreen shrub or small tree growing to 5–10 m tall.",
-        url: "https://images.app.goo.gl/UxAxpA4jxzN3ZNnx8"
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0GI4X1IrvBEGh24znPN_pLDvH4J62Sm37w&usqp=CAU"
     },
     {
         sno: 94,
@@ -33583,7 +34001,7 @@ const sheetData = [
         ScientificName: "Rhododendron luteum",
         uses: "It is widely cultivated in western Europe, used both as an ornamental plant in its own right, and as a rootstock onto which other azalea cultivars are grafted. It is locally naturalised in western and northern Europe",
         Habitat: "the yellow azalea or honeysuckle azalea, is a species of flowering plant in the heath family Ericaceae, native to southeastern Europe and southwest Asia. In Europe, it occurs from southern Poland and Austria, south through the Balkans, and east to southern Russia; and in Asia, east to the Caucasus.",
-        url: "https://images.app.goo.gl/PRGEerLEstCbK52p8"
+        url: "https://www.rhododendrons.co.uk/images/products/large/275.jpg"
     },
     {
         sno: 95,
@@ -33591,7 +34009,7 @@ const sheetData = [
         ScientificName: "Acaci Melanoxylon",
         uses: "Acacia melanoxylon is cultivated in forestry plantings in eastern Africa (including Kenya and Ethiopia), South Africa and Zimbabwe. It is used for lumber, fuelwood and also in amenity plantings.",
         Habitat: "In tropical Africa, Acacia melanoxylon is found in cool and wet upland regions. It grows best in deep, moist and fertile soils, but grows also on sandy and alluvial soils, and in wet nearly swampy places",
-        url: "https://images.app.goo.gl/j4qq5iJ6xAVt4yx88"
+        url: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Acacia_melanoxylon.jpg"
     },
     {
         sno: 96,
@@ -33599,7 +34017,7 @@ const sheetData = [
         ScientificName: "Allamanda Schottii",
         uses: "Allamanda species have been used in systems of traditional medicine for various purposes. A. cathartica has been used to treat liver tumors, jaundice, splenomegaly, and malaria",
         Habitat: "Allamanda schottii is found in the south and southeast of Brazil, in the states of Esp\xedrito Santo, Minas Gerais, Rio de Janeiro, S\xe3o Paulo, Paran\xe1 and Santa Catarina.",
-        url: "https://images.app.goo.gl/SCrYrpFgsiZu27G47"
+        url: "https://www.santhionlineplants.com/wp-content/uploads/2021/01/Allamanda-bush-yellow-Plant-1.jpg"
     },
     {
         sno: 97,
@@ -33607,14 +34025,15 @@ const sheetData = [
         ScientificName: "Neolamarckia cadamba",
         uses: "The fruit and inflorescences are reportedly edible by humans.The fresh leaves are fed to cattle",
         Habitat: "is an evergreen, tropical tree native to South and Southeast Asia.",
-        url: "https://images.app.goo.gl/7owKMpRznQAHxQfz6"
+        url: "https://assets-news.housing.com/news/wp-content/uploads/2022/10/02001326/neolamarckia-cadamba-feature-compressed.jpg"
     },
     {
         sno: 98,
         CommonName: "BEAUTYFLOWER",
         ScientificName: "Calophyllum inophyllum",
         uses: "The oils, as well as poultices made from leaves and flowers, are also commonly used for traditional medicine",
-        Habitat: "Mast wood is notable for its ability to grow to massive sizes in sandy or rocky beaches of island and coastal habitats, as well as its habit sending out arching large trunks over the water where its seeds are dispersed via the currents"
+        Habitat: "Mast wood is notable for its ability to grow to massive sizes in sandy or rocky beaches of island and coastal habitats, as well as its habit sending out arching large trunks over the water where its seeds are dispersed via the currents",
+        url: "https://img.freepik.com/premium-photo/beautiful-red-rose-flowers-summer-time-nature-background-with-flowering-scarlet-roses-inspirational-natural-floral-spring-blooming-garden-park-backdrop-beauty-flower-vintage-retro-art-design_80942-1218.jpg"
     },
     {
         sno: 99,
@@ -33622,7 +34041,7 @@ const sheetData = [
         ScientificName: "Rubia tinctorum",
         uses: "It has been used since ancient times as a vegetable red dye for leather, wool, cotton and silk.For dye production, the roots are harvested after two years",
         Habitat: "It prefers loamy soils (sand and clay soil) with a constant level of moisture.",
-        url: "https://images.app.goo.gl/4aTt29jYJ7ve1KJS8"
+        url: "https://www.healthbenefitstimes.com/9/gallery/indian-madder/Flowers-of-Indian-Madder.jpg"
     },
     {
         sno: 100,
@@ -33630,7 +34049,223 @@ const sheetData = [
         ScientificName: "Plumeria alba",
         uses: "medicine to treat many inflammatory and infectious diseases",
         Habitat: "This species is native to Puerto Rico and the Lesser Antilles, but has been introduced into a number of tropical areas around the world.",
-        url: "https://images.app.goo.gl/XWgpzQXbJV2xGgRM8"
+        url: "https://upload.wikimedia.org/wikipedia/commons/3/3d/West_Indian_Jasmine_--_Ixora.jpg"
+    },
+    {
+        sno: 101,
+        CommonName: "exotic marigold",
+        ScientificName: "mozette exotic marigold",
+        uses: "Homemade Skin Treatment. Digestive-Soothing Tea. Immune-Boosting Formula",
+        Habitat: "Marigolds are native to subtropical America and have been cultivated in Mexico for over 2,000 years",
+        url: "https://gardenerspath.com/wp-content/uploads/2021/05/Marigold-Flower-Tagetes-Growing-Guides-Tips-and-Information-FB.jpg"
+    },
+    {
+        sno: 102,
+        CommonName: "Pink Trumpet Vine",
+        ScientificName: "Podranea ricasoliana",
+        uses: "Garden Use-The showy pink trumpet vine works well in tropical gardens, either sprawling across the ground as a ground cover or draping over trellises, fences, and hedges as ornamentation.",
+        Habitat: "Podranea ricasoliana is native to south tropical Africa, in Malawi, Mozambique and Zimbabwe, and to southern Africa, in South Africa, in Eastern Cape Province and KwaZulu-Natal (Malan and Notten, 2002).",
+        url: "https://wateruseitwisely.com/wp-content/uploads/2021/03/Pink-Trumpet-Vine-3.jpg"
+    },
+    {
+        sno: 103,
+        CommonName: "Gluta",
+        ScientificName: "Gluta travancorica",
+        uses: "Glutathione is essential for the immune system’s proper functioning and is vital in building and repairing tissue. It acts as an important antioxidant, which helps protect your body from damage to cells caused by free radicals.",
+        Habitat: "Gluta velutina grows naturally in Burma, Thailand, Vietnam, Sumatra, Peninsular Malaysia, Borneo and Java. Its habitat is tidal rivers and it is often found with the species Barringtonia conoidea and Pandanus helicopus.",
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5JNspG1b8KStH8xjkJbUU31ZFSHS6FrPDVbahO1URg3Y0E8E-e0VmPzGVQWB3B0Yc0rA&usqp=CAU"
+    },
+    {
+        sno: 104,
+        CommonName: "Watery rose Apple",
+        ScientificName: "Syzygium aqueum",
+        uses: "Fever treatment, Detoxify the liver, Cures any skin conditions",
+        Habitat: "Tropical South East Asia like India, Malaysia",
+        url: "https://m.andrafarm.com/_andra_farm/gambar_kelompok/a125-4.jpg"
+    },
+    {
+        sno: 105,
+        CommonName: "Crotons",
+        ScientificName: "Codiaeum variegatum",
+        uses: "treatment of cancer, constipation, diabetes, digestive problems, dysentery, external wounds, fever, hypercholesterolemia, hypertension, inflammation, intestinal worms, malaria, pain, ulcers and weight-loss.",
+        Habitat: "Croton does best in fertile, well-drained, moist soil. They need bright, indirect light when grown indoors. Outdoors they thrive in partial shade, and in cool climates can tolerate full sun if kept moist (and are acclimated first when moved from inside).",
+        url: "https://cdn.britannica.com/96/219696-050-6D3495AB/Croton-plant-leaves.jpg"
+    },
+    {
+        sno: 106,
+        CommonName: "Polyalthia longifolia",
+        ScientificName: "Monoon longifolium",
+        uses: "The leaves are used for ornamental decoration during festivals.The tree can be pruned into various shapes and maintained in required sizes.",
+        Habitat: "It is native to southern India and Sri Lanka, but has been widely introduced elsewhere in tropical Asia.",
+        url: "https://www.caretransplanters.com.au/images/sub-tropical/architectural-trees/resized/Polyalthia-longifolia-Mast-Tree.jpg"
+    },
+    {
+        sno: 107,
+        CommonName: "Peacock flower",
+        ScientificName: "Caesalpinia pulcherrima",
+        uses: "The leaves, flower, bark, and seeds of C. pulcherrima were used by American Indians in traditional medicine as abortifacients and for suicide",
+        Habitat: "native to the tropics and subtropics of the Americas. It could be native to the West Indies,[3] but its exact origin is unknown due to widespread cultivation.",
+        url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/7113aEqB1uL._SL1500_.jpg"
+    },
+    {
+        sno: 108,
+        CommonName: "Bismarck palm tree",
+        ScientificName: "Bismarckia nobilis",
+        uses: "Attractive and can grow both indoor & outdoor",
+        Habitat: "The Bismarck Palm is native to the island of Madagascar near the east coast of Africa.",
+        url: "https://www.gardeningknowhow.com/wp-content/uploads/2017/07/bismark.jpg"
+    },
+    {
+        sno: 109,
+        CommonName: "Moses in the cradle",
+        ScientificName: "Tradescantia spathacea",
+        uses: "a houseplant,primarily used for its decorative value",
+        Habitat: "It is native to Belize, Guatemala, and southern Mexico",
+        url: "https://www.aquastore.in/image/cache/catalog/aquastore.in/1.Storeimages/6.Plants/indoor/Moses-In-The-Cradle%20Bicolor-600x600.jpg"
+    },
+    {
+        sno: 110,
+        CommonName: "White bhuhneia purpurea",
+        ScientificName: "strawberry begonia",
+        uses: "Orchid tree, Bauhinia purpurea, is a tropical, evergreen small tree or shrub up to 4 - 10 m tall and 2 m across. It has an erect and slender stem, crooked branches, green leaves, and large, purple and orchid like flowers",
+        Habitat: "auhinia purpurea is a small to medium-size deciduous tree growing to 17 feet (5.2 m) tall. The leaves are 10–20 centimetres (3.9–7.9 in) long and broad, rounded, and bilobed at the base and apex. The flowers are conspicuous, pink, and fragrant, with five petals. The fruit is a pod 30 centimetres (12 in) long, containing 12 to 16 seeds",
+        url: "https://t3.ftcdn.net/jpg/03/33/82/78/360_F_333827840_GZYSHTT3cLZwwbVjKD8cTYXOGeuV2b88.jpg"
+    },
+    {
+        sno: 111,
+        CommonName: "Bougainvillea spectabilis",
+        ScientificName: "great bougainvillea",
+        uses: "Bougainvillea spectabilis has been reported to have anti-inflammatory, anti-bacterial, anti-viral, anti-tumor, anti-hypercholestrolemic, anti-hyperlipidemic, and anti-fertility properties",
+        Habitat: "Bougainvillea spectabilis is native to Brazil, Peru, Bolivia, and Chubut Province, Argentina, but it has been introduced in many other areas. Bougainvillea spectabilis can grow in hardiness zones 10-11, preferring full sun , dry conditions, and fertile soil. It can be propagated from stem and root cuttings.",
+        url: "https://www.jardineriaon.com/wp-content/uploads/2019/03/Caracteristicas-Buganvilla-spectabilis.jpg"
+    },
+    {
+        sno: 112,
+        CommonName: "Tasmanian flax lily",
+        ScientificName: "Dianella tasmanica",
+        uses: "Flax lily, Dianella tasmanica, is a spreading perennial with flat, glossy green leaves. This grass-like foliage plant is often used as a groundcover, border plant, or even as an accent plant, to bring color and texture into the landscape. This fast-growing plant also works well in containers.",
+        Habitat: "asoutheastern Australia",
+        url: "https://www.smgrowers.com/imagedb/Dianella_tasmainca.jpg"
+    },
+    {
+        sno: 113,
+        CommonName: "Zedi orange Mari gold",
+        ScientificName: "mari gold",
+        uses: "Marigolds are native to Mexico, but the sunny annuals have become incredibly popular and are grown in countries around the world. Although they are appreciated primarily for their beauty, you may not have considered the many surprising marigold benefits for gardens. Read on to learn about ways to use marigold plants in the gard",
+        Habitat: "Webmarigold, (genus Tagetes), genus of about 50 species of annual herbs of the aster family (Asteraceae), native to southwestern North America, tropical America, and South America. The name marigold also refers to the pot marigold (genus Calendula) and unrelated",
+        url: "https://nurtureplant.in/wp-content/uploads/2019/09/giant-double-600x600.jpg"
+    },
+    {
+        sno: 114,
+        CommonName: "Ficus variegata",
+        ScientificName: "red stem fig",
+        uses: "he wood, light and whitish, is used for inner coverings, cases, handicrafts and in the fabrication of the plywood, as well as fuel. The dried fruits are at times consumed with rice by some local populations; leaves and bark are used in the traditional medicine, in particular for dysentery.",
+        Habitat: "icus variegata or Common Red Stem fig (scientific name: Ficus variegata) is native to India, southern China, Indonesia and Malaysia and is a deciduous trees of the family Moraceae. It inhabits the humid forest of the tropical region. The trunk is light gray brown, the leaves are green and heart-shaped",
+        url: "https://nurserya2z.com/wp-content/uploads/2020/12/mangomeadows-nursery-plants-ficus-triangularis-variegata-plant-16968860106892_600x600.jpg"
+    },
+    {
+        sno: 115,
+        CommonName: "bonsai",
+        ScientificName: "penjing",
+        uses: "Bonsai plants are beneficial to one's health. It aids in the treatment of coughs, weariness, sore throats, and exhaustion.",
+        Habitat: "Tropical Bonsai may be kept on a sunny windowsill year-round. During the summer they love to be outside, but they will also do well indoors. The air inside the house is very dry, so the use of a pebble tray or frequent misting is important.",
+        url: "https://a-z-animals.com/media/2022/10/shutterstock_2163655781.jpg"
+    },
+    {
+        sno: 116,
+        CommonName: "Siamese cassia",
+        ScientificName: "senna siamea.",
+        uses: "used in intercropping systems, windbreaks, and shelterbelts..It is also used as a shade tree in cocoa, coffee, and tea plantations.",
+        Habitat: "lowland forests and river banks",
+        url: "https://content.eol.org/data/media/8f/3a/24/611.10292.jpg"
+    },
+    {
+        sno: 117,
+        CommonName: "mangium, black wattle",
+        ScientificName: "acacia mangium.",
+        uses: "it is also used for soil protection.used in commercial plantations to provide products such as pulp, firewood, charcoal",
+        Habitat: "areas of high rainfall in northern Australia, New Guinea and some adjacent islands",
+        url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91kegNLIOCL._SL1500_.jpg"
+    },
+    {
+        sno: 118,
+        CommonName: "Yellow bells",
+        ScientificName: "Tecoma gaudi gaudi.",
+        uses: "used in traditional medicine.Used to cure digestive problems,stomach pain.",
+        Habitat: "native to the Americas.",
+        url: "https://nurserynisarga.in/wp-content/uploads/2022/08/flower-1.webp"
+    },
+    {
+        sno: 119,
+        CommonName: "Gargoulette palm kernel",
+        ScientificName: "Hyophorbe lagenicaulis",
+        uses: "The Palm kernel is the edible seed of the oil palm tree. The fruit yields two distinct oils—Palm Oil derived from the outer parts of the fruit, and palm kernel oil derived from the kernel. The kernels yield an oil (approx.. 45-50%) which is much in demand for the manufacture of cattle food, soaps",
+        Habitat: "While habitat destruction may destroy the last remaining palms in the wild, the survival of the species is assured due to its plantation as a specimen of the tropics and subtropics",
+        url: "https://i.etsystatic.com/10534964/r/il/108165/2426121705/il_fullxfull.2426121705_f24w.jpg"
+    },
+    {
+        sno: 120,
+        CommonName: "Cascabela thevetia",
+        ScientificName: "Thevetia peruviana",
+        uses: "in Cultivation and biological pest control",
+        Habitat: "in pastures, in savanna and in riparian zones (banks of watercourses).",
+        url: "https://www.nationbloom.com/products/cascabela-thevetia-bitti-peach-plant-by-nationbloom.jpg"
+    },
+    {
+        sno: 121,
+        CommonName: "Hibiscus",
+        ScientificName: "Hibiscus tiliaceus",
+        uses: "The inner bark of the sea hibiscus (Hibiscus tiliaceus), also called 'hau', is used in Polynesia for making rope, and the wood for making canoe floats",
+        Habitat: "It is widely cultivated as an ornamental plant in the tropics and subtropics, but its native range is Vanuatu",
+        url: "https://www.hindustantimes.com/web-stories/amazing-health-benefits-of-hibiscus-5508/assets/1.jpeg"
+    },
+    {
+        sno: 122,
+        CommonName: "Alternanthera",
+        ScientificName: "Amaranthaceae",
+        uses: "It is used as a local medicine often in mixtures with other medicinal plants, to treat hepatitis, tight chest, bronchitis, asthma and other lung troubles",
+        Habitat: "rivers, lakes, ponds and irrigation canals, as well as many terrestrial habitats",
+        url: "https://wildroots.in/wp-content/uploads/2021/01/Untitled-design-53.jpg"
+    },
+    {
+        sno: 123,
+        CommonName: "uvaia fruit",
+        ScientificName: "eugenia pyitormis",
+        uses: "its fruits present considerable amounts of antioxidants nd vitamin C when compared to other fruits.It is usually eaten fresh,made into juices or jellies.",
+        Habitat: "Eugenia pyriformis is a plant of family Myrtaceae fund primarily in Brazil.Its native species of razil,occuring primarily in states of Parana,Rio Grande do Sul,Santa Catarina and Sao Paulo.",
+        url: "https://www.floralondrina.com.br/img/products/muda-de-uvaia-eugenia-pyriformis_1_1200.jpg"
+    },
+    {
+        sno: 124,
+        CommonName: "katong",
+        ScientificName: "wallichila duisticha",
+        uses: "the pith from the stems is eaten in times f famine.Short lived getting to about 15 years old then flowering for 4-5 years before dying.This is a hapaxanthic genus",
+        Habitat: "It has very short life about 15 years Low mountain valley of Sikkim and north India Himalayas",
+        url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41uOwHNZCyL._SX450_.jpg"
+    },
+    {
+        sno: 125,
+        CommonName: "Christ thron",
+        ScientificName: "Euphorbia milii",
+        uses: "The latex of some crown of thron species has been used for arrow poisons and to stupefy fish for cature.Euphoriba plants are also used as food by the larave of some lepidoptera",
+        Habitat: "Crown of thorns starfish are large marine invertrbrates ehich feed on coroal as adults.They occur naturally throughout the Indo Pacific region on coral reefs from Red Sea to west coast of Americas.",
+        url: "https://i.etsystatic.com/24066289/r/il/88e5cc/4059578267/il_570xN.4059578267_jfpm.jpg"
+    },
+    {
+        sno: 126,
+        CommonName: "Cape Honeysuckle",
+        ScientificName: "Tecoma Capensis",
+        uses: "It is often planted specifically to attract birds and butterflies.It is used to relieve pain and sleeplessness.",
+        Habitat: "The species occurs naturally in South Africa Eswatini and southern Mozambique.It is cultovated in other areas of world suc as in South eat ASia,Hawai,Florida and Calfornia.",
+        url: "https://www.thespruce.com/thmb/SG6jQgf0HFyeOjKzOdr4dt-H5ww=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cape-honeysuckle-growing-tips-3269216-07-6bc4ac9858fb44b29293b0cc874d14fd.jpg"
+    },
+    {
+        sno: 127,
+        CommonName: "Paper Flower",
+        ScientificName: "Bouginvillea Flowers",
+        uses: "The aqueous extract and decoction of this plant have been used as fertility control among tribal people in many countries.It has been shown to posses anticancer,antidiabetic,antihepatotoix,anti inflammatory",
+        Habitat: "Ougainvillea is best suited to hot dry climate and should be watered deeply.It is awoody climber with curved throns that sprawls and needs to be tired.",
+        url: "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/06/purple-bougainvillea.jpg"
     }
 ];
 exports.default = sheetData;
