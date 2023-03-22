@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./src/App.js",
+  "source":"main.html",
   "scripts": {
-    "start": "parcel main.html",
-    "build": "parcel build main.html",
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arnab Raja Abhiram",
