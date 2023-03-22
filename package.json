@@ -1,0 +1,29 @@
+{
+  "homepage": "http://asrk03.github.io/treesVignan/",
+  "name": "vignantrees",
+  "version": "1.0.0",
+  "description": "",
+  "source":"index.html",
+  "type": "module",
+  "scripts": {
+    "start": "parcel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnab Raja Abhiram",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
