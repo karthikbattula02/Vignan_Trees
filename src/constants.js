@@ -1013,6 +1013,118 @@ const sheetData = [
     uses: 'The aqueous extract and decoction of this plant have been used as fertility control among tribal people in many countries.It has been shown to posses anticancer,antidiabetic,antihepatotoix,anti inflammatory',
     Habitat: 'Ougainvillea is best suited to hot dry climate and should be watered deeply.It is awoody climber with curved throns that sprawls and needs to be tired.',
     url: 'https://plantura.garden/uk/wp-content/uploads/sites/2/2022/06/purple-bougainvillea.jpg'
+  },
+  {
+    sno: 128,
+    CommonName: 'Lemon ',
+    ScientificName: 'Citrus limon',
+    uses: 'It is helpful in prevention of kidney stones,it reduces cancer risk.',
+    Habitat: 'These are subtropical plants native to asia.',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lemon_-_whole_and_split.jpg/800px-Lemon_-_whole_and_split.jpg'
+  },
+  {
+    sno: 129,
+    CommonName: 'Portia tree',
+    ScientificName: 'Thespesia populnea',
+    uses: 'It has used in traditional medicine for treating wounds and bruises.',
+    Habitat: 'These are found in sea coasts often ehere sandy beaches covered by casuarina',
+    url: 'https://m.media-amazon.com/images/I/71UCeZqTp1L._SL1500_.jpg'
+  },
+  {
+    sno: 130,
+    CommonName: 'Tamarind',
+    ScientificName: 'Tamarindus indica',
+    uses: 'People use tamarind for dry eye constipation,parasite infections.',
+    Habitat: 'Tamarind evergreen tree of the pea family native to tropical Africa.',
+    url: 'https://static.toiimg.com/thumb/79000968.cms?width=680&height=512&imgsize=227697'
+  },
+  {
+    sno: 131,
+    CommonName: 'Miracle fruit',
+    ScientificName: 'Synsepalum dulcificum',
+    uses: 'people use meracle fruit for diabetes, obesity,taste disturbancas in people treated with cancer drugs',
+    Habitat: 'This plant is native to tropcal west Africa.',
+    url: 'https://5.imimg.com/data5/SELLER/Default/2021/3/IC/GW/EV/33712158/miracle-fruit-plant-500x500.png'
+  },
+  {
+    sno: 132,
+    CommonName: 'Sapodilla',
+    ScientificName: 'Manilkara zapota',
+    uses: 'It is used to treat , arthritas,fever,ulcers,diarrhea.',
+    Habitat: 'the sapodilla tree is native to southern Mexico,Bellze and northestern Guatemala',
+    url: 'https://redlandfruitandspice.com/wp-content/uploads/2017/01/sapodilla-tree-2.jpg'
+  },
+  {
+    sno: 133,
+    CommonName: 'Stereospermum chelonoides',
+    ScientificName: 'Bignonia suaveolens',
+    uses: 'It is used for stomoch problem,diabetes,lever disorders.',
+    Habitat: 'It is a deciduous tree native to south and southeast asia.',
+    url: 'https://1.bp.blogspot.com/-0i2RUGWQ9EI/XcPAA5xRs0I/AAAAAAAAT0Q/54ucgG8DWo4ZuZeZ-92vjuvKfz0OoUklACLcBGAsYHQ/s1600/Parul_Fragrant_padri_Tree_Stereospermum_chelonoides_04.JPG'
+  },
+  {
+    sno: 134,
+    CommonName: 'Tabebuia rosea',
+    ScientificName: 'Tabebuia rosea',
+    uses: 'It has been used to redues fevers and pains , cause sweating.',
+    Habitat: 'This tree  is often seen in Neotropical cities.',
+    url: 'https://thumbs.dreamstime.com/b/tabebuia-rosea-street-view-guayana-city-venezuela-also-called-pink-poui-rosy-trumpet-tree-neotropical-grows-up-120072853.jpg'
+  },
+  {
+    sno: 135,
+    CommonName: 'Yucca aloifolia',
+    ScientificName: 'Yucca aloifolia',
+    uses: 'It is used for osteoarthritis,high blood pressure, migraine headaches.',
+    Habitat: 'it grows sandy soils , esspecially on sand dunes along the coast',
+    url: 'https://www.jardineriaon.com/wp-content/uploads/2020/01/Hojas-de-la-Yucca-aloifolia.jpg'
+  },
+  {
+    sno: 136,
+    CommonName: 'Oleander',
+    ScientificName: 'Nerium oleander',
+    uses: 'It has traditionaly been used in the treatment of cardiac illness,asthma.',
+    Habitat: 'It is found in subtropical regions.',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Nerium_oleander_flowers_leaves.jpg'
+  },
+  {
+    sno: 137,
+    CommonName: 'Aglaia odorata',
+    ScientificName: 'Aglalia odorata',
+    uses: 'It is used in folk medicine.The flowers are used to treat cough,vertigo. ',
+    Habitat: 'It is found in terristrial regions(mountains,rainforest).',
+    url: 'https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY28uaW4vNjM0ZDA4NjM1NGZkNjAwYjA2NDc5OTJkLXl1bmFrZXNhLWNoaW5lc2UtcGVyZnVtZS1waWFudC1hZ2xhaWEuanBn.jpg'
+  },
+  {
+    sno: 138,
+    CommonName: 'Chinese Toon',
+    ScientificName: 'Toona sinensis',
+    uses: 'It is used to blanching,stir-frying,roasting and frying.',
+    Habitat: 'it orginates in east Asia and is specifically found in northern and western china',
+    url: 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61ehoam6LLS._AC_UF894,1000_QL80_.jpg'
+  },
+  {
+    sno: 139,
+    CommonName: 'Yellow Tecoma',
+    ScientificName: 'Tecoma stans',
+    uses: 'It is used in the construction of buildings.',
+    Habitat: 'it is found in rocky places,sandy lake shores and disturbed sites in tropical and subtropical environments.',
+    url: 'https://5.imimg.com/data5/SK/CN/QH/SELLER-53524300/tecoma-flower-plant-500x500.jpg'
+  },
+  {
+    sno: 140,
+    CommonName: 'Pinwheel flower',
+    ScientificName: 'Tabernaemontana divaricata',
+    uses: 'It is used to treat hypertension,headaches,scabies and toothaches.',
+    Habitat: 'it is found in montane brushwoods and sparse forests.',
+    url: 'https://previews.123rf.com/images/anshumali/anshumali2009/anshumali200900274/156272414-tabernaemontana-divaricata-commonly-called-pinwheel-flower-or-crape-jasmine-flower-plant.jpg'
+  },
+  {
+    sno: 141,
+    CommonName: 'Java plum',
+    ScientificName: 'Syzygium cumini',
+    uses: 'It helps in managing weight,boost immunity.',
+    Habitat: 'it is found in most tropical and subtropical forest habitats in india.',
+    url: 'https://cdn.shopify.com/s/files/1/0634/0997/9621/products/java-plumjamun-tree-syzygium-cumini-plant-kadiyam-nursery-1_grande.jpg?v=1662733308'
   }
 ]
 export default sheetData;
