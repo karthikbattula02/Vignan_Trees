@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">Follow US</div>
         <div className="row">
             <ul>
-                <li> <Link to ="https://www.linkedin.com/in/battula-karthik">Karthik</Link></li>
+                <li> <Link to ="https://www.linkedin.com/in/karthikbattula/">Karthik</Link></li>
                 <li> <Link to ="https://www.linkedin.com/in/asrk06">Arnab</Link></li>
                 <li><Link to ="https://www.linkedin.com/in/sri-abhiram-nadakuduti-6077b1256">Abhiram</Link></li>
                 <li><Link to ="https://www.linkedin.com/in/raja1704">Raja Reddy</Link></li>
